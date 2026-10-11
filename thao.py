@@ -6,8 +6,8 @@ r=float(input("Input the radius of the circle line: "))
 p=3.14
 s=p*r**2
 c=2*r*p
-print(f"The area of a circle with a radius of {r} is: {round(s, 1)}")
-print(f"The circumference of a circle with a radius of {r} is: {round(c, 1)}")
+print(f"The area of a circle with a radius of {r:g} is: {round(s, 1)}")
+print(f"The circumference of a circle with a radius of {r:g} is: {round(c, 1)}")
 # Câu 3
 import math 
 print("Enter the two sides of a square triangle:")
@@ -25,11 +25,11 @@ average=sum/4
 print(f"Sum={sum}")
 print(f"Average={average}")
 # Câu 5
-n=int(input("Initial amount: "))
+n=float(input("Initial amount: "))
 k=int(input("Savings months: "))
 T=float(input("Interest rate/month: "))
 m=n*(1+k*T)
-print(f"With an initial amount of {n}, after {k} months of deposit, the interest rate is {T}/month")
+print(f"With an initial amount of {n:g}, after {k} months of deposit, the interest rate is {T:g}/month")
 print(f"The amount received at the end of the strange: {m}")
 # Câu 6
 a=input("Full Name: ")
@@ -39,4 +39,4 @@ d=float(input("Coefficient: "))
 e=float(input("Advance: "))
 l=c*b*d
 t=l-e
-print(f"Employee {a}, With Salary={round(l, 1)}, Advance={e} and Actual amount received={round(t, 1)}")
+print(f"Employee {a}, With Salary={round(l, 1)}, Advance={e:g} and Actual amount received={round(t, 1)}")

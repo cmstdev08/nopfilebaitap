@@ -20,10 +20,10 @@ a=float(input("a="))
 b=float(input("b="))
 c=float(input("c="))
 d=float(input("d="))
-sum=a+b+c+d
-average=sum/4
-print(f"Sum={sum}")
-print(f"Average={average}")
+s=a+b+c+d
+tb=s/4
+print(f"Sum={s}")
+print(f"Average={tb}")
 # Câu 5
 n=float(input("Initial amount: "))
 k=int(input("Savings months: "))

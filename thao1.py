@@ -10,17 +10,17 @@ if a>0 and b>0 and c>0 and a+b>c and a+c>b and b+c>a:
 else:
     print("Invalid")
 #Câu 2
-a=float(input("M1="))
-b=float(input("M2="))
-c=float(input("M3="))
-d=float(input("S="))
+a=int(input("M1="))
+b=int(input("M2="))
+c=int(input("M3="))
+d=int(input("S="))
 if d <= 100:
     tien=d*a
 elif d <=150:
     tien=100*a+(d-100)*b
 else:
     tien=100*a+50*b+(d-150)*c
-print(f"Bill={tien:g}")
+print(f"Bill={tien}")
 #Câu 3
 a=float(input("x="))
 b=float(input("y="))
